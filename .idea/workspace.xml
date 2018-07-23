@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb2b0543-9ed1-4a00-a4c5-6afeba866372" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/source_results_representation/make_graphs_for_paper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_results_representation/take_detailed_results_nirdizati_file_create_mau_weighted_average.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_parse_file_sentiment_BPI2013_with_countries_to_make_it_compact.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_parse_file_sentiment_BPI2013_with_countries_to_make_it_compact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_delete_columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_delete_columns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_find_unique_countries.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_find_unique_countries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_annotate_2017_2012.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_annotate_2017_2012.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/How to name the paper.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_BPI2012_2nnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_BPI2012_before_2bnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_BPI2012_day_2dnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_BPI2017_7nnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_BPI2017_before_7bnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_BPI2017_day_7dnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_Road_Traffic_Fine_before_tbnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_Road_Traffic_Fine_day_tdnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/next_step_predicitons/validation_Road_Traffic_Fine_tnnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_BPI2012_2nrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_BPI2012_before_2brn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_BPI2012_day_2drn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_BPI2017_7nrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_BPI2017_before_7brn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_BPI2017_day_7drn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_Road_Traffic_Fine_before_tbrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_Road_Traffic_Fine_day_tdrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/remtime/validation_Road_Traffic_Fine_tnrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS1_JULY6/results_july6.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/BPI2013.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/here.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_2nnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_2nnp_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_2nrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_2nrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_2nrp_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_before_2bnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_before_2bnp_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_before_2brn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_before_2brnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_before_2brp_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_day_2dnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_day_2dnp_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_day_2drn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_day_2drnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2012_day_2drp_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2013_3nrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2013_3nrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2013_before_3brn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2013_before_3brnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2013_day_3drn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2013_day_3drnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_7nnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_7nrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_7nrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_before_7bnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_before_7brn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_day_7dnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_day_7drn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_day_7drnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_Road_Traffic_Fine_before_tbnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_Road_Traffic_Fine_before_tbrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_Road_Traffic_Fine_day_tdnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_Road_Traffic_Fine_day_tdrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_Road_Traffic_Fine_day_tdrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_Road_Traffic_Fine_tnnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_Road_Traffic_Fine_tnrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS2_JULY7/validation_Road_Traffic_Fine_tnrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/BPI2017.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/BPI2017.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/BPI2017.ods" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/BPI2017.ods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_7nrni_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_7nrni_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_7nrnl_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_7nrnl_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_before_7brni_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_before_7brni_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_before_7brnl_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_before_7brnl_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_day_7drni_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_day_7drni_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_day_7drnl_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_day_7drnl_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_random_7rrni_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_random_7rrni_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_random_7rrnl_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_random_7rrnl_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_window_7wrni_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_window_7wrni_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/BPI2017/validation_BPI2017_window_7wrnl_regr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RESULTS_VAL_FINAL_per_log/BPI2017/validation_BPI2017_window_7wrnl_regr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_2nnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_2nnp_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_2nrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_2nrni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_2nrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_2nrp_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_before_2bnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_before_2bnp_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_before_2brn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_before_2brni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_before_2brnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_before_2brp_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_day_2dnn_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_day_2dnp_class.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_day_2drn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_day_2drni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_day_2drnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_day_2drp_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_random_2rrni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_random_2rrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_window_2wrni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2012_window_2wrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_3nrn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_3nrni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_3nrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_before_3brn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_before_3brni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_before_3brnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_day_3drn_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_day_3drni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_day_3drnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_random_3rrni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_random_3rrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_window_3wrni_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS_V0.9/validation_BPI2013_window_3wrnl_regr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotate_before.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_annotating/annotate_before.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotate_day_to_day.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_annotating/annotate_day_to_day.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotate_day_to_day_traffic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotate_impact_before_event_traffic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotate_random.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_annotating/annotate_random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotate_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_annotating/annotate_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotating_bpi2013/annotate_before_bpi2013.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_before_bpi2013.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotating_bpi2013/annotate_day_to_day_bpi2013_with_country.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_day_to_day_bpi2013_with_country.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotating/annotating_bpi2013/annotate_window_bpi2013.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_window_bpi2013.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_one_results_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_results_representation/create_one_results_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2bnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2bnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2bnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2bnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2brn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2brn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2brp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2brp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2dnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2dnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2dnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2dnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2drn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2drn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2drp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2drp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2nnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2nnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2nnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2nnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2nrn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2nrn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/2nrp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2nrp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7bnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7bnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7bnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7bnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7brn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7brn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7brp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7brp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7dnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7dnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7dnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7dnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7drn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7drn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7drp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7drp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7nnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7nnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7nnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7nnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7nrn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7nrn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/7nrp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/7nrp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/not useful  yet/3bnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/not useful  yet/3bnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/not useful  yet/3bnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/not useful  yet/3bnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/not useful  yet/3brn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/not useful  yet/3brn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/not useful  yet/3brp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/not useful  yet/3brp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/not useful  yet/3dnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/not useful  yet/3dnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/not useful  yet/3dnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/not useful  yet/3dnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/not useful  yet/3drn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/not useful  yet/3drn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/not useful  yet/3drp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/not useful  yet/3drp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/run" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tbnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tbnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tbnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tbnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tbrn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tbrn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tbrp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tbrp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tdnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tdnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tdnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tdnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tdrn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tdrn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tdrp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tdrp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tnnn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tnnn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tnnp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tnnp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tnrn.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tnrn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters_for_nirdizat_5july/tnrp.json" beforeDir="false" afterPath="$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/tnrp.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="1_parse_file_sentiment_to_make_it_compact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="89" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotate_before_bpi2013.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_before_bpi2013.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3_annotate_2017_2012.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_annotate_2017_2012.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotate_window.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_annotating/annotate_window.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotate_random.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_annotating/annotate_random.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1_parse_file_sentiment_BPI2013_with_countries_to_make_it_compact.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1_parse_file_sentiment_BPI2013_with_countries_to_make_it_compact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotate_window_bpi2013.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_window_bpi2013.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotate_day_to_day.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_annotating/annotate_day_to_day.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotate_before.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_annotating/annotate_before.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotate_day_to_day_bpi2013_with_country.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_day_to_day_bpi2013_with_country.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding>
+                <element signature="e#38#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sentiment_file</find>
+      <find>dict</find>
+      <find>float</find>
+      <find>case_ids_set</find>
+      <find>logreader</find>
+      <find>writer</find>
+      <find>header</find>
+      <find>sentiment_dict</find>
+      <find>KeyError: 'plotly_domain'</find>
+      <find>iplot</find>
+      <find>trace_param_dict</find>
+      <find>road</find>
+      <find>RESULTS_VAL_V0.92</find>
+      <find>RESULTS_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/annotate_dat_to_day_BPI2017.py" />
+        <option value="$PROJECT_DIR$/annotate_day_to_day_traffic.py" />
+        <option value="$PROJECT_DIR$/annotate_impact_before_event_traffic.py" />
+        <option value="$PROJECT_DIR$/parse_file.py" />
+        <option value="$PROJECT_DIR$/annotate_dat_to_day_BPI2012BPI17.py" />
+        <option value="$PROJECT_DIR$/delete_columns.py" />
+        <option value="$PROJECT_DIR$/annotate_dat_to_day_BPI2012BPI17BPI2013.py" />
+        <option value="$PROJECT_DIR$/annotate_impact_before_event.py" />
+        <option value="$PROJECT_DIR$/annotate_day_to_day.py" />
+        <option value="$PROJECT_DIR$/annotate_random.py" />
+        <option value="$PROJECT_DIR$/annotate_window.py" />
+        <option value="$PROJECT_DIR$/3_annotate_2017.py" />
+        <option value="$PROJECT_DIR$/annotate_before.py" />
+        <option value="$PROJECT_DIR$/annotate_day_to_day_bpi2013_with_country.py" />
+        <option value="$PROJECT_DIR$/annotating/annotating_bpi2013/annotate_window_bpi2013.py" />
+        <option value="$PROJECT_DIR$/annotating/annotating_bpi2013/annotate_before_bpi2013.py" />
+        <option value="$PROJECT_DIR$/annotating/annotating_bpi2013/annotate_day_to_day_bpi2013_with_country.py" />
+        <option value="$PROJECT_DIR$/create_one_results_file.py" />
+        <option value="$PROJECT_DIR$/take_detailed_results_nirdizati_file_create_mau_weighted_average.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotate_impact_before_event_traffic.py" />
+        <option value="$PROJECT_DIR$/source_results_representation/make_graphs_for_paper.py" />
+        <option value="$PROJECT_DIR$/source_results_representation/take_detailed_results_nirdizati_file_create_mau_weighted_average.py" />
+        <option value="$PROJECT_DIR$/source_results_representation/create_one_results_file.py" />
+        <option value="$PROJECT_DIR$/1_parse_file_sentiment_BPI2013_with_countries_to_make_it_compact.py" />
+        <option value="$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py" />
+        <option value="$PROJECT_DIR$/2_find_unique_countries.py" />
+        <option value="$PROJECT_DIR$/2_delete_columns.py" />
+        <option value="$PROJECT_DIR$/3_annotate_2017_2012.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_day_to_day_bpi2013_with_country.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_before_bpi2013.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_window_bpi2013.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotate_day_to_day.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotate_day_to_day_traffic.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotate_random.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotate_before.py" />
+        <option value="$PROJECT_DIR$/source_annotating/annotate_window.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-111" />
+    <option name="y" value="184" />
+    <option name="width" value="2498" />
+    <option name="height" value="752" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ParseRioNewsLogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParseRioNewsLogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParseRioNewsLogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParseRioNewsLogs" type="462c0819:PsiDirectoryNode" />
+              <item name="source_results_representation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="log&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Multiprospective-Predictive-Monitoring-of-Business-Processes-with-A-priori-knowledge" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source_results_representation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.make_graphs_for_paper">
+    <configuration name="1_parse_file_sentiment_to_make_it_compact" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ParseRioNewsLogs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="2_find_unique_countries" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ParseRioNewsLogs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_find_unique_countries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3_annotate_2017_2012" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ParseRioNewsLogs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_annotate_2017_2012.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="make_graphs_for_paper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ParseRioNewsLogs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source_results_representation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source_results_representation/make_graphs_for_paper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="take_detailed_results_nirdizati_file_create_mau_weighted_average" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ParseRioNewsLogs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source_results_representation/take_detailed_results_nirdizati_file_create_mau_weighted_average.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.take_detailed_results_nirdizati_file_create_mau_weighted_average" />
+      <item itemvalue="Python.make_graphs_for_paper" />
+      <item itemvalue="Python.2_find_unique_countries" />
+      <item itemvalue="Python.1_parse_file_sentiment_to_make_it_compact" />
+      <item itemvalue="Python.3_annotate_2017_2012" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.make_graphs_for_paper" />
+        <item itemvalue="Python.take_detailed_results_nirdizati_file_create_mau_weighted_average" />
+        <item itemvalue="Python.3_annotate_2017_2012" />
+        <item itemvalue="Python.1_parse_file_sentiment_to_make_it_compact" />
+        <item itemvalue="Python.2_find_unique_countries" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb2b0543-9ed1-4a00-a4c5-6afeba866372" name="Default" comment="" />
+      <created>1530604089846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530604089846</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="222" width="2560" height="1442" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32890624" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28934819" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2394895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4834835" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/annotate_day_to_day_BPI2012.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source_results_representation/create_one_results_file.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_window_bpi2013.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_before_bpi2013.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_day_to_day_bpi2013_with_country.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source_annotating/annotate_day_to_day.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3_annotate_2017_2012.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source_results_representation/make_graphs_for_paper.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source_results_representation/make_graphs_for_paper.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source_annotating/annotate_window.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="100" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source_results_representation/create_one_results_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_delete_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotate_day_to_day.py" />
+    <entry file="file://$PROJECT_DIR$/annotate_impact_before_event_traffic.py" />
+    <entry file="file://$PROJECT_DIR$/annotate_before.py" />
+    <entry file="file://$USER_HOME$/InstalledApps/anaconda3/lib/python3.6/_strptime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18348">
+          <caret line="564" selection-start-line="564" selection-end-line="564" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/InstalledApps/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10164">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotate_day_to_day_traffic.py" />
+    <entry file="file://$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_delete_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotate_day_to_day.py" />
+    <entry file="file://$USER_HOME$/InstalledApps/anaconda3/lib/python3.6/_strptime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6188">
+          <caret line="364" selection-start-line="364" selection-end-line="364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/InstalledApps/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotate_day_to_day_traffic.py" />
+    <entry file="file://$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/InstalledApps/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotate_day_to_day_BPI2012.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotate_impact_before_event_traffic.py" />
+    <entry file="file://$PROJECT_DIR$/annotate_random.py" />
+    <entry file="file://$PROJECT_DIR$/annotate_window.py" />
+    <entry file="file://$PROJECT_DIR$/annotate_day_to_day_traffic.py" />
+    <entry file="file://$PROJECT_DIR$/annotate_before.py" />
+    <entry file="file://$PROJECT_DIR$/annotate_day_to_day.py" />
+    <entry file="file://$USER_HOME$/InstalledApps/anaconda3/lib/python3.6/_strptime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11649">
+          <caret line="361" column="24" selection-start-line="361" selection-start-column="24" selection-end-line="361" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotate_day_to_day_bpi2013_with_country.py" />
+    <entry file="file://$PROJECT_DIR$/RESULTS2_JULY7/validation_BPI2017_day_7drn_regr.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/InstalledApps/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10131">
+          <caret line="307" column="40" selection-start-line="307" selection-start-column="40" selection-end-line="307" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/plotly/basedatatypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38808">
+          <caret line="1196" column="28" selection-start-line="1196" selection-start-column="28" selection-end-line="1196" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESULTS_DETAILED_FINAL/detailed_BPI2012_day_2drni_regr.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAMPLE_PARAMETERS_NIRDIZATI/2dnn.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_results_representation/create_one_results_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_results_representation/take_detailed_results_nirdizati_file_create_mau_weighted_average.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#59#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_results_representation/make_graphs_for_paper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1151">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_delete_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_find_unique_countries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_day_to_day_bpi2013_with_country.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#38#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_window_bpi2013.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_parse_file_sentiment_to_make_it_compact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="89" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotate_day_to_day_traffic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotate_impact_before_event_traffic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_annotate_2017_2012.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotate_random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotate_before.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotate_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotate_day_to_day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_annotating/annotating_bpi2013/annotate_before_bpi2013.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_parse_file_sentiment_BPI2013_with_countries_to_make_it_compact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
